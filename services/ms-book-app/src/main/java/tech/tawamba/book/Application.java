@@ -17,10 +17,10 @@ import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfi
 				HibernateJpaAutoConfiguration.class
 		}
 )
-public class MsBookAppApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MsBookAppApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
